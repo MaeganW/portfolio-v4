@@ -1,3 +1,5 @@
+@import './shared/variables';
+
 * {
   margin: 0;
   padding: 0;
@@ -47,14 +49,14 @@ bg-parallax {
 }
 
 .btn-white {
-  border-color: #fff;
-  color: #fff;
+  border-color: $yellow;
+  color: $yellow;
 }
 
 .btn-white:hover,
 .btn-white:focus {
-  background-color: #fff;
-  color: #41464b;
+  background-color: $yellow;
+  color: $grey;
 }
 
 
@@ -87,7 +89,7 @@ bg-parallax {
 
 #home-cover {
   height: 100%;
-  background-image: url("../../img/5.jpg");
+  background-image: url("../../img/sergey-zolkin-192937.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,7 +108,7 @@ bg-parallax {
 }
 
 #home-heading h3 {
-  color: #fff;
+  color: $blue;
   font-size: 5.5rem;
   font-weight: 300;
   margin: 20px 0;
