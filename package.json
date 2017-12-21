@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-v4",
+  "version": "1.0.0",
+  "description": "Maegan Womble - Portfolio 2017-2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/styles/scss:src/styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaeganW/portfolio-v4.git"
+  },
+  "author": "Maegan Womble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaeganW/portfolio-v4/issues"
+  },
+  "homepage": "https://github.com/MaeganW/portfolio-v4#readme"
+}
